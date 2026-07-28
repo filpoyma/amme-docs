@@ -8,7 +8,7 @@ Rules react to domain events, delays and schedules. An execution records trigger
 
 ## AI workforce
 
-Specialised agents (Sales, Concierge, Operations, Finance, Marketing, Analytics and Manager) form proposals or invoke authorised public commands. Every material action stores agent identity, policy version, evidence, confidence, tool calls and human intervention when applicable.
+Specialised agents (Sales, Concierge, Operations, Finance, Marketing, Analytics and Manager) form proposals or invoke authorised low-risk public commands. They may answer approved routine questions, collect data, draft requests, send reminders, add a guest to a waitlist and create one short-lived hold. They never confirm, cancel or amend a booking or appointment; change a room or staff schedule; issue discounts or refunds; alter money; or access health data without human approval. Every material action stores agent identity, policy version, evidence, confidence, tool calls and human intervention when applicable.
 
 ## Notifications
 

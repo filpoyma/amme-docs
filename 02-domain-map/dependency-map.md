@@ -28,11 +28,12 @@ Finance: Payment Received
   └─ Analytics refreshes revenue projections
 ```
 
-`Finance` does not directly confirm a booking; it reports payment receipt. Booking decides whether that fact meets its confirmation rule.
+`Finance` does not directly confirm a booking; it reports payment receipt. An authorised human user of Booking decides whether payment and all other conditions meet its confirmation rule.
 
 ## Forbidden shortcuts
 
 - Finance cannot set `booking.status`.
 - Booking cannot mark an invoice paid.
+- Neither AI nor an automation can confirm a booking or service appointment.
 - AI cannot bypass command handlers or permissions.
 - Analytics cannot be used as an operational source of truth.

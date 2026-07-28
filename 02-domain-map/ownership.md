@@ -14,7 +14,7 @@ The owner alone validates and changes a concept's authoritative state. Other mod
 | Retreat programme and participant registration | Retreats & events | Event attendance belongs here too. |
 | Transfer and excursion execution | Transfers & excursions | |
 | Product, stock movement, supplier and purchase | Inventory & procurement | |
-| Invoice, payment, refund, expense and daily close | Finance | Simplified cashflow accounting; no general ledger yet. |
+| Folio, invoice, payment, refundable deposit, refund, expense and daily close | Finance | A folio collects charges; an invoice is a fixed payment document. Deposits are tracked as refundable guest balances, not revenue. Simplified cashflow accounting; no general ledger yet. |
 | Employee, shift and generic task | Staff & operations | Housekeeping and maintenance own their specialised lifecycle. |
 | Notification delivery | Notifications & communications | Message content may originate elsewhere. |
 | File storage metadata and access grants | Files & documents | Business modules own meaning and retention policy. |

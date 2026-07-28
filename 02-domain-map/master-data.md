@@ -15,3 +15,5 @@ Master data is relatively stable configuration reused by operational transaction
 | Countries, nationalities, languages and currencies | Shared reference data |
 
 Rates, availability and stock are operational state, not master data. A price list can be master data; a quoted booking price is an immutable commercial snapshot.
+
+The operating and settlement currency for the first version is **IDR**. Multi-currency support is deferred; no USD deposit or exchange-rate logic is implied by this map.

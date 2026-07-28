@@ -17,7 +17,8 @@ AMME is a modular monolith for one retreat centre, not a multi-tenant PMS. A mod
 2. [Module map](module-map.md)
 3. [Bounded contexts](bounded-contexts.md)
 4. [Ownership](ownership.md) and [dependencies](dependency-map.md)
-5. Supporting maps: [master data](master-data.md), [operations](operational-domains.md), [intelligence](intelligence-domains.md), [cross-domain events](cross-domain-events.md) and [future expansion](future-expansion.md).
+5. [Interaction rules](interaction-rules.md) — approved business decisions that govern collaboration between modules.
+6. Supporting maps: [master data](master-data.md), [operations](operational-domains.md), [intelligence](intelligence-domains.md), [cross-domain events](cross-domain-events.md) and [future expansion](future-expansion.md).
 
 ## Non-goals
 
