@@ -6,6 +6,8 @@ The Folio is the live ledger of charges, credits, package inclusions and refunda
 
 An invoice correction uses void-plus-replacement; it never edits an issued document. Tax and service charge are separate, versioned monetary components and only a Manager may change their rates.
 
+A closed day is reopened only by a Manager, Finance Admin or Owner through an audited exception command.
+
 ## Deposit, credit and payments
 
 - A refundable security deposit is collected at check-in: base amount **1,000,000 IDR per room**.
