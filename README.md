@@ -8,6 +8,7 @@ Product and architecture knowledge base for **AMME** — an AI-first operating s
 - `01-event-storming/` — the evolving domain-event map.
 - `02-domain-map/` — module boundaries, ownership and allowed dependencies.
 - `03-domain-model/` — core aggregates, entities, value objects and invariants.
+- `04-business-rules/` — approved operational policies, approvals and exceptions.
 - Later stages are deliberately not pre-created: each is added when its inputs are stable.
 
 ## Roadmap
@@ -33,4 +34,4 @@ Product and architecture knowledge base for **AMME** — an AI-first operating s
 An event records a completed, observable fact in the past tense. It is not a screen, command, wish, or database mutation. AI decisions and human overrides are recorded separately so that automation remains auditable.
 
 See [Event Storming](01-event-storming/README.md) to start.
-The current architecture stage is [Domain Model](03-domain-model/README.md).
+The current architecture stage is [Business Rules](04-business-rules/README.md).

@@ -8,9 +8,9 @@ Accommodation, wellness, transfers and restaurant operations may request charges
 
 ## Invoice aggregate
 
-`Invoice` is created from selected folio entries. It owns numbered invoice lines, tax/service-charge amounts, issue date, currency and immutable `BillToSnapshot`. It is editable only while draft. Once issued it is immutable; a mistake is corrected by voiding the invoice and issuing a new one in the MVP.
+`Invoice` is the immutable tax/financial document created from selected folio entries at checkout, or earlier when law or contract requires it. It owns numbered invoice lines, tax/service-charge amounts, issue date, currency and immutable `BillToSnapshot`. It is editable only while draft. Once issued it is immutable; a mistake is corrected by voiding the invoice and issuing a new one in the MVP.
 
-An invoice may cover multiple rooms, guests, services and retreat components for one payer. One booking may be represented across several invoices, including prepayment, balance, deposit and incidentals.
+An invoice may cover multiple rooms, guests, services and retreat components for one payer. Before payment, Finance issues a non-tax `Proforma` or `PaymentRequest`; after money is received it creates a `Receipt`. A booking may have several payment requests and receipts; the refundable deposit is a liability, not an invoice charge.
 
 ## Payment aggregate
 
@@ -20,7 +20,7 @@ Payment obligation status, including `Overdue`, is derived by Finance from issue
 
 ## Refundable Deposit aggregate
 
-`RefundableDeposit` tracks money held for a booking/stay separately from charges and revenue. It records receipt, held balance, authorised deductions and return. Manager approval is required for deductions due to damage, minibar, unpaid charges or late checkout. The physical money may sit in the hotel's account, but it remains a refundable guest balance in the model.
+`RefundableDeposit` tracks money held for a booking/stay separately from charges and revenue. It is visible on the Folio as a liability line, but is not a `Charge`. It records receipt, held balance, authorised deductions and return. Manager approval is required for deductions due to damage, minibar, unpaid charges or late checkout. The physical money may sit in the hotel's account, but it remains a refundable guest balance in the model.
 
 ## Finance rules
 

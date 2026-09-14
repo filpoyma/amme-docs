@@ -30,4 +30,6 @@ Normal human-created holds expire after 24 hours. Manager-approved group, retrea
 
 Reception, Manager and Owner may confirm accommodation bookings. Confirmation requires guest name, phone/WhatsApp, dates, guest count, a valid physical-room allocation and the applicable payment condition. Passport, agreement and full payment are not universal confirmation prerequisites.
 
+`Quote Accepted` and `Booking Confirmed` are separate facts. Payment, a written guest acceptance or a signed document may accept a quote; only an authorised human booking action can confirm the reservation after all conditions are satisfied.
+
 Only a Manager may restore a cancelled reservation, and only after availability is validated again. No-show is recorded by staff after the agreed deadline and contact attempt; a Manager decides whether to release later nights.
